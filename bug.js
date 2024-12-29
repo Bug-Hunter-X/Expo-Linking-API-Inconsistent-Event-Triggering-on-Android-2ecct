@@ -1,0 +1,1 @@
+This error occurs when using the Expo `Linking` API to handle deep links.  The `Linking.addEventListener` function may not trigger as expected if the app is already running and a deep link is opened. This is particularly problematic on Android.
